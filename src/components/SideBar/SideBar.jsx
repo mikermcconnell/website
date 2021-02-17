@@ -20,7 +20,6 @@ function SideBar(props) {
           <SideBarCard section={'Skills'} handleClick={props.handleSelection} />
           <SideBarCard section={'Awards'} handleClick={props.handleSelection} />
           <SideBarCard section={'Education'} handleClick={props.handleSelection} />
-          <SideBarCard section={'Resume'} handleClick={props.handleSelection} />
           <SideBarCard section={'Vlog'} handleClick={props.handleSelection} />
           <SideBarCard section={'Contact'} handleClick={props.handleSelection} />
 

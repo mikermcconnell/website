@@ -20,7 +20,6 @@ ${(props) =>
         font-style: italic;
     `}
 
-text-transform: capitalize;
 
 
 font-family: sans-serif;
@@ -47,7 +46,6 @@ margin-top: 5%;
 display: flex;
 flex-direction: row;
 justify-content: space-around;
-align-content: space-around;
 
 flex-wrap: wrap;
 `;

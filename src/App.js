@@ -89,7 +89,7 @@ function App() {
           <Skills section={skills} />
           <Awards section={awards} />
           <Education section={education} />
-          <Resume section={resume} />
+          
           <Vlog section={vlog} />
           <Contact section={contact} />
 

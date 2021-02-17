@@ -17,15 +17,24 @@ function Awards(props) {
         location: "University of Waterloo ",
         date: "April 2020",
         details: [
-            "Graduated on Dean's Honour's List (top 10% of class)"
+            "Graduated on Dean's Honour's List (top 10% of class)."
         ]
     }
     const cardVars3 = {
-        title: "Place Holder",
-        location: "Somewhere over the rainbow",
-        date: "July 2020",
+        title: "Waterloo Professional Development Scholarship",
+        location: "University of Waterloo",
+        date: "April 2015",
         details: [
-            "Inset text here"
+            "Awarded for maintaining high average and being involved in extra-curricular activities."
+        ]
+    }
+
+    const cardVars4 = {
+        title: "President Scholarship",
+        location: "University of Waterloo",
+        date: "April 2015",
+        details: [
+            "For maintaining 90%-94% average."
         ]
     }
 
@@ -36,7 +45,7 @@ function Awards(props) {
             <GenericCard {...cardVars1}/>
             <GenericCard {...cardVars2}/>
             <GenericCard {...cardVars3}/>
-            <GenericCard {...cardVars3}/>
+            <GenericCard {...cardVars4}/>
 
             </CardLayout>
         </PageStyle>

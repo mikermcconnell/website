@@ -20,11 +20,21 @@ function Education(props) {
         location: "University of Waterloo ",
         date: "April 2020",
         details: [
-            "GPA: 4.0/4.33",
-            "Machine Learning and Computer Vision",
-            "Mathematical computations using MATLAB",
-            "Other general analytical, problem-solving, and design courses in applied physics, math, and calculus",
-            "Presentation and writing skills",
+            "GPA: 4.0/4.33.",
+            "Machine Learning and Computer Vision.",
+            "Mathematical computations using MATLAB.",
+            "Other general analytical, problem-solving, and design courses in applied physics, math, and calculus.",
+            "Courses involving conducting presentations and writing technical reports.",
+        ]
+    }
+
+    const cardVars3 = {
+        title: "Other Completed Courses",
+        location: "Udemy",
+        date: "February 2020",
+        details: [
+            "Algorithms and Data Structures",
+            "OOP Design Principles (SOLID) and Object Oriented Design Patterns in Java"
         ]
     }
 
@@ -35,6 +45,7 @@ function Education(props) {
             <CardLayout>
             <GenericCard {...cardVars1}/>
             <GenericCard {...cardVars2}/>
+            <GenericCard {...cardVars3}/>
 
             </CardLayout>
         </PageStyle>

@@ -8,14 +8,14 @@ function Experience(props) {
     const cardVars = {
         title: "Mosaic Manufacturing",
         position: "Full Stack Developer",
-        description: "At Mosaic, I am responsible for building software for an automated 3D printing system, Array.",
+        description: "At Mosaic, I am responsible for building software for an automated 3D printing system.",
         bulletList: [
-            "Owner of the software for the product, building front-end, UI/UX, back-end, database, communication, and testing",
-            "Creating and architecting applications from scratch using OOP best practices",
-            "Implementing new features, debugging and enhancing existing features",
-            "Introducing and integrating new technologies, such as SQLite across the codebases",
-            "Thorough testing with unit and integration tests",
-            "Technologies used: Node.js, React/Redux, SQLite, MQTT, Jest"
+            "Owner of the software for the product, building front-end, UI/UX, back-end, database, communication, and testing.",
+            "Creating and architecting applications from scratch using OOP best practices.",
+            "Implementing new features, debugging and enhancing existing features.",
+            "Introducing new technologies to the team. Recent example is implementing SQLite across the codebases.",
+            "Thorough testing with unit and integration tests.",
+            "Technologies used: Node.js, React/Redux, SQLite, MQTT, Jest."
         ],
         bottomLabel: "September 2020 - Present | Toronto, ON"
     }
