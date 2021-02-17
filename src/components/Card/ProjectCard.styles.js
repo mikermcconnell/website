@@ -77,7 +77,7 @@ justify-content: space-between;
 
 export const MainBlock = styled.div`
 
-font-size: 1.3em;
+font-size: 1.1em;
 font-family: sans-serif;
 
 display: flex;

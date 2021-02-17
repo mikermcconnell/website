@@ -50,7 +50,7 @@ border-bottom: 2px solid #c8ccde;
 
 export const SubTitle = styled.div`
 padding: 1em 2em 0 2em;
-font-size: 1.3em;
+font-size: 1.1em;
 color: #545454;
 font-style: italic;
 font-family: sans-serif;
@@ -60,7 +60,7 @@ font-family: sans-serif;
 export const MainBlock = styled.div`
 padding: 0 2em 0 2em;
 
-font-size: 1.5em;
+font-size: 1.2em;
 font-family: sans-serif;
 
 display: flex;

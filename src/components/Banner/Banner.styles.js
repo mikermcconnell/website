@@ -13,7 +13,7 @@ align-items:center;
 export const BannerText = styled.div`
 padding-left: 0.5em;
 color: white;
-font-size: 2em;
+font-size: 1.6em;
 
 text-transform: uppercase;
 

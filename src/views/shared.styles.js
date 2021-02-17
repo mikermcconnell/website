@@ -5,7 +5,7 @@ ${(props) =>
         (props.size) &&
         css`
         
-    font-size: ${(props) => props.size}em;
+    font-size: ${(props) => (props.size*0.75)}em;
     `}
     ${(props) =>
         (props.color) &&

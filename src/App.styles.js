@@ -12,6 +12,7 @@ export const MainView = styled.div`
   @media (max-width: 1800px) {
     margin-top: 10vh;
     margin-left: 0;
+    position: relative;
   
 
   }

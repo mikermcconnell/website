@@ -25,6 +25,6 @@ padding-bottom: 0.6em;
 export const MainBlock = styled.div`
 display: flex;
 flex-direction: row;
-font-size: 1.3em;
+font-size: 1.1em;
 font-family: sans-serif;
 `;

@@ -24,7 +24,7 @@ padding-right: 2em;
 
 export const LinkText = styled.div`
 
-font-size: 1.5em;
+font-size: 1.2em;
   
 color: #1e5c6b;
 
