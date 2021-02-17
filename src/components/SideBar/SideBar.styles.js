@@ -14,7 +14,7 @@ export const VerticalMenu = styled.div`
     css`
     margin-top: 10vh;
     z-index: 10;
-    width: 15rem;
+    width: 15em;
     `}
 
 

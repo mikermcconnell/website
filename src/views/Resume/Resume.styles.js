@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const DownloadButton = styled.div`
 margin-top: 5%;
 width: 30%;
-padding: 2em 2em 2em 2rem;
+padding: 2em 2em 2em 2em;
 margin-bottom: 5%;
 margin-left: 5%;
 background-color: #013a73;

@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const StyledComponent = styled.div`
-height: 35rem;
-width: 42rem;
+height: 35em;
+width: 42em;
 margin-bottom: 5%;
 margin-left: 5%;
   background-color: white;
@@ -27,7 +27,7 @@ object-position:50% 50%;
 `;
 
 export const TinyImage = styled.img`
-height: 1.5rem;
+height: 1.5em;
 
 `;
 
@@ -36,7 +36,7 @@ height: 30%;
   display: flex;
   flex-direction: row;
   background-color: white;
-  padding: 2em 2em 2em 2rem;
+  padding: 2em 2em 2em 2em;
   
 `;
 
@@ -52,7 +52,7 @@ height: 92%;
 width: 91%;
 display: flex;
 flex-direction: column;
-padding: 2em 2em 1em 2rem;
+padding: 2em 2em 1em 2em;
 justify-content: space-between;
 
 `;
@@ -77,7 +77,7 @@ justify-content: space-between;
 
 export const MainBlock = styled.div`
 
-font-size: 1.3rem;
+font-size: 1.3em;
 font-family: sans-serif;
 
 display: flex;
@@ -85,16 +85,16 @@ flex-direction: column;
 `;
 
 export const Line = styled.div`
-margin-left: -2rem;
-margin-right: -2rem;
-margin-bottom: 1rem;
+margin-left: -2em;
+margin-right: -2em;
+margin-bottom: 1em;
 justify-self: flex-end;
 border-bottom: 2px solid #c8ccde;
 `;
 
 export const GeneralImage = styled.img`
-height: 3.5rem;
-width: 4rem;
+height: 3.5em;
+width: 4em;
 justify-self: flex-end;
 `;
 

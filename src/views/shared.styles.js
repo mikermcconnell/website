@@ -5,7 +5,7 @@ ${(props) =>
         (props.size) &&
         css`
         
-    font-size: ${(props) => props.size}rem;
+    font-size: ${(props) => props.size}em;
     `}
     ${(props) =>
         (props.color) &&
@@ -32,10 +32,6 @@ width: 100%;
 display: flex;
 flex-direction: column;
 align-items: center;
-
-@media (max-width: 1800px) {
-    width: 100%;
-  }
 
 `;
 

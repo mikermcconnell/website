@@ -22,7 +22,7 @@ export const MainView = styled.div`
 export const Main = styled.div`
   height: 100%;
   width: 100%;
-
+position: relative;
 `;
 
 export const DarkOverlay = styled.div`

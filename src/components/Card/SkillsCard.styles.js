@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledComponent = styled.div`
-padding: 2em 2em 2em 2rem;
+padding: 2em 2em 2em 2em;
 background-color: white;
   margin-top: 5%;
   display: flex;
@@ -19,15 +19,15 @@ height: 70%;
 `;
 
 export const Line = styled.div`
-margin: 1em 0em 0em 0rem;
+margin: 1em 0em 0em 0em;
 border-bottom: 2px solid #c8ccde;
 `;
 
 
 
 export const ImageBlock = styled.div`
-padding: 1em 2em 0 2rem;
-height: 12rem;
+padding: 1em 2em 0 2em;
+height: 12em;
 display: flex;
 flex-direction: column;
 align-items: center;

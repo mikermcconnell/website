@@ -17,14 +17,14 @@ padding-bottom: 2em;
 `;
 
 export const IconStyle = styled.div`
-height: 4rem;
-width: 4rem;
-padding-right: 2rem;
+height: 4em;
+width: 4em;
+padding-right: 2em;
 `;
 
 export const LinkText = styled.div`
 
-font-size: 1.5rem;
+font-size: 1.5em;
   
 color: #1e5c6b;
 

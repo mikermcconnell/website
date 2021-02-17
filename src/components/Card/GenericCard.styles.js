@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const StyledComponent = styled.div`
 width: 40%;
-padding: 2em 2em 2em 2rem;
+padding: 2em 2em 2em 2em;
 margin-bottom: 5%;
 
 background-color: white;
@@ -19,12 +19,12 @@ background-color: white;
 `;
 
 export const TitleBlock = styled.div`
-padding-bottom: 0.6rem;
+padding-bottom: 0.6em;
 `;
 
 export const MainBlock = styled.div`
 display: flex;
 flex-direction: row;
-font-size: 1.3rem;
+font-size: 1.3em;
 font-family: sans-serif;
 `;
