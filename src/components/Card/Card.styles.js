@@ -25,6 +25,7 @@ justify-content: space-between;
 
 export const OneBlock = styled.div`
 display: flex;
+flex-wrap: wrap;
 flex-direction: row;
 align-items: center;
 padding: 0 2em 0 2em;
