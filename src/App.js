@@ -70,6 +70,8 @@ function App() {
       case 'Contact':
         scrollTo(contact)
         break;
+      default:
+        break;
     }
   }
 
@@ -88,7 +90,7 @@ function App() {
           <Skills section={skills} />
           <Awards section={awards} />
           <Education section={education} />
-          
+
           <Vlog section={vlog} />
           <Contact section={contact} />
 

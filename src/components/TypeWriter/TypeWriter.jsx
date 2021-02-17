@@ -1,7 +1,7 @@
 import React from "react";
 import Typewriter from 'typewriter-effect';
 
-import { Typing, StyledComponent } from "./TypeWriter.styles"
+import { StyledComponent } from "./TypeWriter.styles"
 
 function TypeWriter(props) {
   return (

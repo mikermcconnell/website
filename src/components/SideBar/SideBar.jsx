@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import NameCard from "../NameCard/NameCard";
 import SideBarCard from "../SideBarCard/SideBarCard";
-import { StyledContainer, HorizontalLayout, VerticalMenu } from "./SideBar.styles"
+import { HorizontalLayout, VerticalMenu } from "./SideBar.styles"
 import useCurrentWidth from "../../hooks/useCurrentWidth"
 import { MenuIcon } from "../../icons"
 
