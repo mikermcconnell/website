@@ -12,7 +12,7 @@ export const MainView = styled.div`
   @media (max-width: 1800px) {
     margin-top: 10vh;
     margin-left: 0;
-    width: 100%;
+  
 
   }
   
@@ -22,7 +22,7 @@ export const MainView = styled.div`
 export const Main = styled.div`
   height: 100%;
   width: 100%;
-position: relative;
+
 `;
 
 export const DarkOverlay = styled.div`
