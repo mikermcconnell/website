@@ -1,6 +1,6 @@
 import React from "react";
 import Banner from "../../components/Banner/Banner"
-import { PageStyle, CardLayout, CardText } from "../shared.styles";
+import { PageStyle } from "../shared.styles";
 import { ContactLayout, Item, IconStyle, LinkText } from "./Contact.styles";
 import { Email, LinkedIn, GitHub } from "../../icons";
 

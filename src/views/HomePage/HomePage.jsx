@@ -15,7 +15,3 @@ function HomePage(props) {
 }
 
 export default HomePage;
-
-{/* <h1  style={{ height: "100vh", margin: 0 }}>
-HomePage
-</h1> */}

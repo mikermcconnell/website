@@ -5,7 +5,6 @@ import { HomePage, Projects, Skills } from "./views"
 import Awards from "./views/Awards/Awards.jsx";
 import Education from "./views/Education/Education.jsx";
 import Experience from "./views/Experience/Experience.jsx";
-import Resume from "./views/Resume/Resume.jsx";
 import Vlog from "./views/Vlog/Vlog.jsx";
 import Contact from "./views/Contact/Contact.jsx";
 

@@ -1,4 +1,4 @@
-import styled, { css, keyframes } from "styled-components";
+import styled from "styled-components";
 
 export const StyledComponent = styled.div`
 padding: 5% 0 0 2%;

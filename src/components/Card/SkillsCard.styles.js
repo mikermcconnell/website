@@ -1,4 +1,4 @@
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 
 export const StyledComponent = styled.div`
 padding: 2em 2em 2em 2rem;

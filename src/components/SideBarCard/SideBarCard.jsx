@@ -1,8 +1,8 @@
 import React from "react";
 //import  Experience from "../../icons/experience2.jpg";
 import { CardText } from "../../views/shared.styles";
-import { StyledComponent, Img, IconStyle } from "./SideBarCard.styles"
-import { Experience, Projects, Gears, PickAxe, StartUp, Awards, Education, Resume, Vlog, Contact} from '../../icons'
+import { StyledComponent, IconStyle } from "./SideBarCard.styles"
+import { Experience, Projects, Gears, Awards, Education, Resume, Vlog, Contact} from '../../icons'
 
 function SideBarCard(props) {
   return (

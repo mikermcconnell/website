@@ -1,6 +1,6 @@
 import React from "react";
 import Banner from "../../components/Banner/Banner"
-import { PageStyle, CardText, CardLayout } from "../shared.styles";
+import { PageStyle, CardLayout } from "../shared.styles";
 import ProjectCard from "../../components/Card/ProjectCard"
 
 function Vlog(props) {
