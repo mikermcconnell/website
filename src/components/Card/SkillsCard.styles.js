@@ -32,6 +32,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: space-around;
+
 `;
 
 
@@ -39,4 +40,8 @@ export const MainBlock = styled.div`
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
+
+@media (max-width: 750px) {
+  justify-content: center;
+}
 `;

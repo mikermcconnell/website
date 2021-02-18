@@ -48,18 +48,20 @@ export const Text = styled.div`
 `;
 
 export const Details = styled.div`
-height: 92%;
 width: 91%;
+height: 91%;
 display: flex;
 flex-direction: column;
-padding: 2em 2em 1em 2em;
 justify-content: space-between;
+padding: 5% 5% 5% 5%;
 
 `;
 
 export const FirstBlock = styled.div`
 display: flex;
 flex-direction: column;
+height: 80%;
+overflow-y: auto;
 `;
 
 export const SecondBlock = styled.div`
@@ -79,16 +81,13 @@ export const MainBlock = styled.div`
 
 font-size: 1.1em;
 font-family: sans-serif;
-
 display: flex;
 flex-direction: column;
+
 `;
 
 export const Line = styled.div`
-margin-left: -2em;
-margin-right: -2em;
-margin-bottom: 1em;
-justify-self: flex-end;
+width:100%;
 border-bottom: 2px solid #c8ccde;
 `;
 

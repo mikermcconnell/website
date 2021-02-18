@@ -68,7 +68,7 @@ function ProjectCard(props) {
                         </TitleBlock>
 
                         <MainBlock>
-                            <ul >
+                            <ul style={{ height: "70%" }}>
                                 {props.bulletList && props.bulletList.map((bullet) =>
                                     <li style={{ paddingBottom: "0.7em" }}>{bullet}</li>
                                 )}
