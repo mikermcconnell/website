@@ -2,6 +2,7 @@ import React from "react";
 import Banner from "../../components/Banner/Banner"
 import { PageStyle, CardLayout } from "../shared.styles";
 import ProjectCard from "../../components/Card/ProjectCard"
+import { ProjectLayout } from "../Projects/Projects.styles";
 
 function Vlog(props) {
 
@@ -22,11 +23,11 @@ function Vlog(props) {
 
         <PageStyle ref={props.section}>
             <Banner section={"Vlog"} />
-            <CardLayout>
+            <ProjectLayout>
                 <ProjectCard {...cardVars1} />
                 <ProjectCard {...cardVars2} />
 
-            </CardLayout>
+            </ProjectLayout>
 
         </PageStyle>
 

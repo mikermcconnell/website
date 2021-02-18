@@ -11,7 +11,7 @@ align-items:center;
 
 `;
 export const BannerText = styled.div`
-padding-left: 0.5em;
+padding-left: 1em;
 color: white;
 font-size: 1.6em;
 

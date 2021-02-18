@@ -11,6 +11,10 @@ background-color: white;
   box-shadow: 0px 2px 10px #7e7f85;
   border-radius: 8px;
 
+  @media (max-width: 750px) {
+    width: 90%;
+  }
+
 `;
 export const TitleBlock = styled.div`
 padding: 0 2em 0 2em;

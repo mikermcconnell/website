@@ -9,6 +9,7 @@ margin-left: 5%;
   box-shadow: 0px 2px 10px #7e7f85;
   border-radius: 5px;
   cursor: pointer;
+
 `;
 
 export const MainCover = styled.div`
@@ -74,7 +75,8 @@ overflow-y: auto;
 
 export const SecondBlock = styled.div`
 display: flex;
-flex-direction: column;
+flex-direction: row;
+
 `;
 
 export const TitleBlock = styled.div`
@@ -102,7 +104,15 @@ border-bottom: 2px solid #c8ccde;
 export const GeneralImage = styled.img`
 height: 3.5em;
 width: 4em;
-justify-self: flex-end;
+align-self: center;
+`;
+
+export const SecondImage = styled.img`
+height: 2.8em;
+width: 3.2em;
+padding-left: 2em;
+align-self: center;
+
 `;
 
 

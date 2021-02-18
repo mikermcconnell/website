@@ -15,3 +15,4 @@ export { ReactComponent as MenuIcon } from "./menu.svg";
 export { ReactComponent as Email } from "./email.svg";
 export { ReactComponent as LinkedIn } from "./linkedin.svg";
 export { ReactComponent as GitHub } from "./github.svg";
+export { ReactComponent as GoTo } from "./share.svg";

@@ -44,6 +44,9 @@ flex-direction: row;
 justify-content: space-around;
 
 flex-wrap: wrap;
+@media (max-width: 750px) {
+    width: 90%;
+}
 `;
 
 

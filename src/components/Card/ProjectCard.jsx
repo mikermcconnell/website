@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { StyledComponent, BottomBlock, MainImage, TinyImage, Text, Details, MainBlock, TitleBlock, Line, FirstBlock, SecondBlock, GeneralImage, MainCover } from "./ProjectCard.styles"
+import { StyledComponent, BottomBlock, MainImage, TinyImage, Text, Details, MainBlock, TitleBlock, Line, FirstBlock, SecondBlock, GeneralImage, MainCover, SecondImage } from "./ProjectCard.styles"
 import { CardText } from "../../views/shared.styles"
 import TeamStream2 from "../../icons/TeamStream2.png"
 import Scheduler from "../../icons/Scheduler.png"
@@ -9,6 +9,7 @@ import MappyTrails from "../../icons/MappyTrails.png"
 import ThreeDots from "../../icons/ThreeDots.png"
 import XIcon from "../../icons/XIcon.png"
 import GitHub from "../../icons/GitHub.png"
+import GoTo from "../../icons/share.png"
 import Video1 from "../../icons/Video1.jpg"
 import Video2 from "../../icons/Video2.jpg"
 
@@ -75,9 +76,13 @@ function ProjectCard(props) {
                             </ul>
                         </MainBlock>
                     </FirstBlock>
-                    <SecondBlock>
                         <Line />
+                    <SecondBlock>
                         <GeneralImage src={GitHub} onClick={followLink} />
+                        {props.deployed && (
+                            <SecondImage src={GoTo} onClick={()=>window.open(props.deployed)} />
+
+                        )}
 
                     </SecondBlock>
 
