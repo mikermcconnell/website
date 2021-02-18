@@ -12,7 +12,7 @@ function SideBar(props) {
  
   return (
     <>
-      {width > 1800 && (
+      {width > 1600 && (
         <VerticalMenu>
           <NameCard section={'HomePage'} handleClick={props.handleSelection} />
           <SideBarCard section={'Experience'} handleClick={props.handleSelection} />
@@ -25,7 +25,7 @@ function SideBar(props) {
 
         </VerticalMenu>
       )}
-      {width <= 1800 && (
+      {width <= 1600 && (
         <>
           <HorizontalLayout>
             <MenuIcon onClick={props.handleMenuClick} />

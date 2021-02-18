@@ -12,7 +12,7 @@ function Card(props) {
 
     return (
         <StyledComponent >
-           {width > 1800 && (
+           {width > 1600 && (
             <TitleBlock>
                 <OneBlock>
                 <Logo src={logo[props.title]} />
@@ -23,7 +23,7 @@ function Card(props) {
             </TitleBlock>
 
            )}
-            {width <= 1800 && (
+            {width <= 1600 && (
             <TitleBlock>
                  <OneBlock>
                 <Logo src={logo[props.title]} />
@@ -34,7 +34,7 @@ function Card(props) {
 
            )}
             <Line />
-           {width <= 1800 && (
+           {width <= 1600 && (
                <PositionStyling><CardText size={1.6} color={"#5e0e0e"}>{props.position}</CardText></PositionStyling>
            )}
             <SubTitle>{props.description}</SubTitle>

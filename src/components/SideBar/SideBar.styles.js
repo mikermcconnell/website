@@ -2,7 +2,7 @@ import styled, {css} from "styled-components";
 
 export const VerticalMenu = styled.div`
 
-  width: 10%;
+  width: 11%;
   height: 100vh;
   display: flex;
   flex-direction: column;

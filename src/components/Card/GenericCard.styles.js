@@ -11,7 +11,7 @@ background-color: white;
   box-shadow: 0px 2px 10px #7e7f85;
   border-radius: 8px;
 
-  @media (max-width: 1800px) {
+  @media (max-width: 1600px) {
     width: 100%;
 
   }
