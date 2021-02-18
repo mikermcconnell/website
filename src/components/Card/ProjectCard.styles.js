@@ -22,8 +22,7 @@ display: flex;
 export const MainImage = styled.img`
 width: 100%;
 height: 70%;
-object-fit:cover;
-object-position:50% 50%;
+object-fit:fit;
 `;
 
 export const TinyImage = styled.img`
