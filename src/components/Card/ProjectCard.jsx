@@ -41,7 +41,7 @@ function ProjectCard(props) {
         <StyledComponent onClick={handleClick}>
             {!open && (
                 <MainCover>
-                    <MainImage src={images[props.title]} />
+                    <MainImage src={images[props.title]} project={!props.video}/>
                     <BottomBlock>
 
                         <Text>

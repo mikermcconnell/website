@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, {css} from "styled-components";
 
 export const StyledComponent = styled.div`
 height: 28em;
@@ -22,7 +22,16 @@ display: flex;
 export const MainImage = styled.img`
 width: 100%;
 height: 70%;
-object-fit:fit;
+object-fit:cover;
+object-position:50% 50%;
+${(props) =>
+  props.project &&
+  css`
+  object-fit:fill;
+
+  `}
+
+
 `;
 
 export const TinyImage = styled.img`
