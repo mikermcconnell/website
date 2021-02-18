@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const StyledComponent = styled.div`
-height: 35em;
-width: 42em;
+height: 28em;
+width: 38em;
 margin-bottom: 5%;
 margin-left: 5%;
   background-color: white;

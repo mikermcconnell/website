@@ -12,6 +12,7 @@ width: 100%;
 position: absolute;
 background-image: url(${(props) => props.img});
 background-size: cover;
+background-position: 50% 50%;
 opacity: 0.8;
 z-index: -1;
 

@@ -28,12 +28,12 @@ function handleLink(link, email = false){
                     <IconStyle>
                         <LinkedIn />
                     </IconStyle>
-                    <LinkText onClick={()=>handleLink("https://www.linkedin.com/in/hanabregman/")}>https://www.linkedin.com/in/hanabregman/</LinkText>
+                    <LinkText onClick={()=>handleLink("https://www.linkedin.com/in/hanabregman/")}>linkedin.com/in/hanabregman/</LinkText>
                 </Item><Item>
                     <IconStyle>
                         <GitHub />
                     </IconStyle>
-                    <LinkText onClick={()=>handleLink("https://github.com/bregmanh")}>https://github.com/bregmanh</LinkText>
+                    <LinkText onClick={()=>handleLink("https://github.com/bregmanh")}>github.com/bregmanh</LinkText>
                 </Item>
             </ContactLayout>
         </PageStyle>

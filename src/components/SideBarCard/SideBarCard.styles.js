@@ -2,6 +2,8 @@ import styled from "styled-components";
 
 export const StyledComponent = styled.div`
 padding-left: 10%;
+padding-top:0.4em;
+padding-bottom: 0.4em;
 display: flex;
 align-items: center;
 flex-direction: row;
