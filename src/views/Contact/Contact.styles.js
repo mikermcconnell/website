@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ContactLayout = styled.div`
-width: 80%;
+width: 90%;
 margin-top: 5%;
 margin-bottom: 5%;
 
@@ -24,7 +24,7 @@ padding-right: 2em;
 
 export const LinkText = styled.div`
 
-font-size: 1.2em;
+font-size: 1em;
   
 color: #1e5c6b;
 

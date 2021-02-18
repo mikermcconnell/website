@@ -15,7 +15,7 @@ export const TitleBlock = styled.div`
 
 `;
 export const Image = styled.img`
-height: 70%;
+height: 6em;
 `;
 
 export const Line = styled.div`
@@ -27,7 +27,7 @@ border-bottom: 2px solid #c8ccde;
 
 export const ImageBlock = styled.div`
 padding: 1em 2em 0 2em;
-height: 12em;
+height: 10em;
 display: flex;
 flex-direction: column;
 align-items: center;
